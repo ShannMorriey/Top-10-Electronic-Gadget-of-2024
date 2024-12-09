@@ -1,0 +1,39 @@
+<html>
+      <head>
+           <Title>Top 10 Electronic Gadgets of 2024</Title>
+           <link rel = "stylesheet" type = "text/css" href = "Frame_top.css">
+      </head>
+      <BG BODYCOLOR = "BLACK">
+      <hr COLOR = "skyblue" SIZE= "7" WIDTH= "600" ALIGN = "CENTER">
+      <body background = "Picture1.png">
+      <h1 ALIGN = "CENTER"><FONT COLOR = "maroon"><B><U>
+      Top 10 Electronic Gadgets of 2024 </U></B></FONT COLOR></h1>
+      <hr COLOR = "skyblue" SIZE= "7" WIDTH= "600" ALIGN = "CENTER">
+      <br>
+      <br>
+      <a href="About.html">About us</a>
+      <a href="Contact.html">Contact</a>
+      <a href="Author.html">Author</a>
+
+
+      <script>
+	   function goHome() {
+	      if (window.top !==window.self) {
+	          window.toplocation.href ="Frame_Buena.html";
+              } else {
+                  window.location.href = "Frame_Buena.html";
+              }
+           }
+
+           function navigate(page) {
+             // Ensure navigation affect the entire frameset
+             if (window.top !== window.self) {
+                 window.top.location.href = page;
+             } else {
+                  window.location.href = page;
+              }
+           }
+
+      </script>
+      </BODY>  
+</html>
