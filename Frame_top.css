@@ -2,6 +2,7 @@ body
 {
  font-size: 15pt;
  color: black;
+ overflow: hidden; 
 }
 
 h1
